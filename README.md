@@ -88,6 +88,9 @@ import requests
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 from IPython.display import Image
+import warnings
+warnings.filterwarnings('ignore')
+warnings.simplefilter('ignore')
 ```
 
 
@@ -1230,14 +1233,6 @@ data_types_after = {
 
 data_types_after
 ```
-
-    C:\Users\moseskigo\AppData\Local\Temp\ipykernel_4480\904775501.py:2: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      rt_movie['runtime'] = rt_movie['runtime'].str.replace(' minutes', '').astype(float)
-    
 
 
 
@@ -3141,15 +3136,9 @@ ax.set_xlabel('genres')
 plt.xticks(rotation=60);
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_77_1.png)
+![png](student_files/student_77_0.png)
     
 
 
@@ -3178,19 +3167,9 @@ plt.xticks(np.arange(1, 13), ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', '
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-      with pd.option_context('mode.use_inf_as_na', True):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-      with pd.option_context('mode.use_inf_as_na', True):
-    
-
 
     
-![png](student_files/student_80_1.png)
+![png](student_files/student_80_0.png)
     
 
 
@@ -3233,19 +3212,9 @@ plt.grid(False)
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-      with pd.option_context('mode.use_inf_as_na', True):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-      with pd.option_context('mode.use_inf_as_na', True):
-    
-
 
     
-![png](student_files/student_83_1.png)
+![png](student_files/student_83_0.png)
     
 
 
@@ -3285,19 +3254,9 @@ plt.grid(True)
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-      with pd.option_context('mode.use_inf_as_na', True):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-      with pd.option_context('mode.use_inf_as_na', True):
-    
-
 
     
-![png](student_files/student_85_1.png)
+![png](student_files/student_85_0.png)
     
 
 
@@ -3337,19 +3296,9 @@ plt.grid(True)
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-      with pd.option_context('mode.use_inf_as_na', True):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.
-      with pd.option_context('mode.use_inf_as_na', True):
-    
-
 
     
-![png](student_files/student_87_1.png)
+![png](student_files/student_87_0.png)
     
 
 
@@ -3382,15 +3331,9 @@ plt.ylabel('Return on Investment')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\categorical.py:641: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
-      grouped_vals = vals.groupby(grouper)
-    
-
 
     
-![png](student_files/student_89_1.png)
+![png](student_files/student_89_0.png)
     
 
 
@@ -3449,17 +3392,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_92_1.png)
+![png](student_files/student_92_0.png)
     
 
 
@@ -3577,19 +3512,9 @@ plt.legend(title='Movie Title', bbox_to_anchor=(1, 1))
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_94_1.png)
+![png](student_files/student_94_0.png)
     
 
 
@@ -3724,19 +3649,9 @@ plt.legend(title='Movie Title', bbox_to_anchor=(1, 1))
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_97_1.png)
+![png](student_files/student_97_0.png)
     
 
 
@@ -3867,19 +3782,9 @@ plt.legend(title='Studio', loc='upper right')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_101_1.png)
+![png](student_files/student_101_0.png)
     
 
 
@@ -4006,19 +3911,9 @@ plt.grid(axis='y')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_105_1.png)
+![png](student_files/student_105_0.png)
     
 
 
@@ -4136,19 +4031,9 @@ plt.grid(axis='y')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_107_1.png)
+![png](student_files/student_107_0.png)
     
 
 
@@ -4266,19 +4151,9 @@ plt.grid(axis='y')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_109_1.png)
+![png](student_files/student_109_0.png)
     
 
 
@@ -4404,17 +4279,9 @@ plt.grid(axis='x')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_114_1.png)
+![png](student_files/student_114_0.png)
     
 
 
@@ -4529,17 +4396,9 @@ plt.grid(axis='x')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_116_1.png)
+![png](student_files/student_116_0.png)
     
 
 
@@ -4648,17 +4507,9 @@ plt.grid(axis='x')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_118_1.png)
+![png](student_files/student_118_0.png)
     
 
 
@@ -4769,17 +4620,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_120_1.png)
+![png](student_files/student_120_0.png)
     
 
 
@@ -4963,19 +4806,9 @@ plt.grid(axis='x')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_124_1.png)
+![png](student_files/student_124_0.png)
     
 
 
@@ -5156,19 +4989,9 @@ plt.grid(axis='x')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_126_1.png)
+![png](student_files/student_126_0.png)
     
 
 
@@ -5351,17 +5174,9 @@ plt.grid(axis='y')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_131_1.png)
+![png](student_files/student_131_0.png)
     
 
 
@@ -5524,17 +5339,9 @@ plt.grid(axis='x')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_135_1.png)
+![png](student_files/student_135_0.png)
     
 
 
@@ -5644,19 +5451,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_140_1.png)
+![png](student_files/student_140_0.png)
     
 
 
@@ -5688,10 +5485,6 @@ average_gross_profit_by_budget = earnings_df_filtered.groupby(budget_category)['
 
 average_gross_profit_by_budget
 ```
-
-    C:\Users\moseskigo\AppData\Local\Temp\ipykernel_4480\3714491827.py:14: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
-      average_gross_profit_by_budget = earnings_df_filtered.groupby(budget_category)['gross_profit'].mean().reset_index()
-    
 
 
 
@@ -5759,15 +5552,9 @@ plt.grid(axis='y')
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\categorical.py:641: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
-      grouped_vals = vals.groupby(grouper)
-    
-
 
     
-![png](student_files/student_144_1.png)
+![png](student_files/student_144_0.png)
     
 
 
@@ -5846,19 +5633,9 @@ ax2.set_yticklabels([])
 plt.show()
 ```
 
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    C:\Users\moseskigo\anaconda3\Lib\site-packages\seaborn\_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead
-      if pd.api.types.is_categorical_dtype(vector):
-    
-
 
     
-![png](student_files/student_151_1.png)
+![png](student_files/student_151_0.png)
     
 
 
@@ -5941,215 +5718,14 @@ tn_movie_budgets_df.head(3)
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>id</th>
-      <th>release_date</th>
-      <th>movie</th>
-      <th>production_budget</th>
-      <th>domestic_gross</th>
-      <th>worldwide_gross</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>Dec 18, 2009</td>
-      <td>Avatar</td>
-      <td>$425,000,000</td>
-      <td>$760,507,625</td>
-      <td>$2,776,345,279</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>May 20, 2011</td>
-      <td>Pirates of the Caribbean: On Stranger Tides</td>
-      <td>$410,600,000</td>
-      <td>$241,063,875</td>
-      <td>$1,045,663,875</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Jun 7, 2019</td>
-      <td>Dark Phoenix</td>
-      <td>$350,000,000</td>
-      <td>$42,762,350</td>
-      <td>$149,762,350</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
 ```python
 tmdb_movies_df.head(3)
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>genre_ids</th>
-      <th>id</th>
-      <th>original_language</th>
-      <th>original_title</th>
-      <th>popularity</th>
-      <th>release_date</th>
-      <th>title</th>
-      <th>vote_average</th>
-      <th>vote_count</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>[12, 14, 10751]</td>
-      <td>12444</td>
-      <td>en</td>
-      <td>Harry Potter and the Deathly Hallows: Part 1</td>
-      <td>33.533</td>
-      <td>2010-11-19</td>
-      <td>Harry Potter and the Deathly Hallows: Part 1</td>
-      <td>7.7</td>
-      <td>10788</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>[14, 12, 16, 10751]</td>
-      <td>10191</td>
-      <td>en</td>
-      <td>How to Train Your Dragon</td>
-      <td>28.734</td>
-      <td>2010-03-26</td>
-      <td>How to Train Your Dragon</td>
-      <td>7.7</td>
-      <td>7610</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>[12, 28, 878]</td>
-      <td>10138</td>
-      <td>en</td>
-      <td>Iron Man 2</td>
-      <td>28.515</td>
-      <td>2010-05-07</td>
-      <td>Iron Man 2</td>
-      <td>6.8</td>
-      <td>12368</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
 ```python
 imbd_tite_basics_df.head(3)
 ```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>tconst</th>
-      <th>primary_title</th>
-      <th>original_title</th>
-      <th>start_year</th>
-      <th>runtime_minutes</th>
-      <th>genres</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>tt0063540</td>
-      <td>Sunghursh</td>
-      <td>Sunghursh</td>
-      <td>2013</td>
-      <td>175.0</td>
-      <td>Action,Crime,Drama</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>tt0066787</td>
-      <td>One Day Before the Rainy Season</td>
-      <td>Ashad Ka Ek Din</td>
-      <td>2019</td>
-      <td>114.0</td>
-      <td>Biography,Drama</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>tt0069049</td>
-      <td>The Other Side of the Wind</td>
-      <td>The Other Side of the Wind</td>
-      <td>2018</td>
-      <td>122.0</td>
-      <td>Drama</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
 
 
 ```python
@@ -6159,130 +5735,6 @@ genres_df = earnings_df_filtered.merge(tmdb_movies_df[['title', 'popularity', 'v
 
 genres_df.head(3)
 ```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>genre_ids</th>
-      <th>original_language</th>
-      <th>popularity_x</th>
-      <th>title</th>
-      <th>vote_average_x</th>
-      <th>vote_count_x</th>
-      <th>studio</th>
-      <th>domestic_gross</th>
-      <th>foreign_gross</th>
-      <th>year</th>
-      <th>...</th>
-      <th>production_budget</th>
-      <th>worldwide_gross</th>
-      <th>genre_names</th>
-      <th>release_month</th>
-      <th>ROI</th>
-      <th>Budget_Range</th>
-      <th>gross_profit</th>
-      <th>popularity_y</th>
-      <th>vote_average_y</th>
-      <th>vote_count_y</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>[14, 12, 16, 10751]</td>
-      <td>en</td>
-      <td>28.734</td>
-      <td>How to Train Your Dragon</td>
-      <td>7.7</td>
-      <td>7610</td>
-      <td>P/DW</td>
-      <td>217600000.0</td>
-      <td>277300000.0</td>
-      <td>2010</td>
-      <td>...</td>
-      <td>165000000</td>
-      <td>494870992</td>
-      <td>[Fantasy, Adventure, Animation, Family]</td>
-      <td>3</td>
-      <td>199.921813</td>
-      <td>&gt;100M</td>
-      <td>329870992</td>
-      <td>28.734</td>
-      <td>7.7</td>
-      <td>7610</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>[12, 28, 878]</td>
-      <td>en</td>
-      <td>28.515</td>
-      <td>Iron Man 2</td>
-      <td>6.8</td>
-      <td>12368</td>
-      <td>Par.</td>
-      <td>312400000.0</td>
-      <td>311500000.0</td>
-      <td>2010</td>
-      <td>...</td>
-      <td>170000000</td>
-      <td>621156389</td>
-      <td>[Adventure, Action, Science Fiction]</td>
-      <td>5</td>
-      <td>265.386111</td>
-      <td>&gt;100M</td>
-      <td>451156389</td>
-      <td>28.515</td>
-      <td>6.8</td>
-      <td>12368</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>[28, 878, 12]</td>
-      <td>en</td>
-      <td>27.920</td>
-      <td>Inception</td>
-      <td>8.3</td>
-      <td>22186</td>
-      <td>WB</td>
-      <td>292600000.0</td>
-      <td>535700000.0</td>
-      <td>2010</td>
-      <td>...</td>
-      <td>160000000</td>
-      <td>835524642</td>
-      <td>[Action, Science Fiction, Adventure]</td>
-      <td>7</td>
-      <td>422.202901</td>
-      <td>&gt;100M</td>
-      <td>675524642</td>
-      <td>27.920</td>
-      <td>8.3</td>
-      <td>22186</td>
-    </tr>
-  </tbody>
-</table>
-<p>3 rows × 21 columns</p>
-</div>
-
-
 
 
 ```python
@@ -6298,21 +5750,6 @@ genres_df.head(3)
 ```python
 imbd_tite_basics_df.info(3)
 ```
-
-    <class 'pandas.core.frame.DataFrame'>
-    RangeIndex: 146144 entries, 0 to 146143
-    Data columns (total 6 columns):
-     #   Column           Non-Null Count   Dtype  
-    ---  ------           --------------   -----  
-     0   tconst           146144 non-null  object 
-     1   primary_title    146143 non-null  object 
-     2   original_title   146122 non-null  object 
-     3   start_year       146144 non-null  int64  
-     4   runtime_minutes  114405 non-null  float64
-     5   genres           140736 non-null  object 
-    dtypes: float64(1), int64(1), object(4)
-    memory usage: 6.7+ MB
-    
 
 ## Conclusions
 
