@@ -1,3 +1,6 @@
+![R.png](student_files/R.png)
+
+
 # DSC Phase One Project
 
 
@@ -44,6 +47,7 @@ The increase of movie sequels, remakes, and adaptations in today's film industry
 
 Which genre of screenplay should have its rights purchased?
 
+What is the competition, their investment and ROI?
 
 What time is the best to release the film?
 
@@ -3112,7 +3116,7 @@ plt.show()
 
 
     
-![png](student_files/student_74_0.png)
+![png](student_files/student_75_0.png)
     
 
 
@@ -3138,7 +3142,7 @@ plt.xticks(rotation=60);
 
 
     
-![png](student_files/student_77_0.png)
+![png](student_files/student_78_0.png)
     
 
 
@@ -3169,7 +3173,7 @@ plt.show()
 
 
     
-![png](student_files/student_80_0.png)
+![png](student_files/student_81_0.png)
     
 
 
@@ -3214,7 +3218,7 @@ plt.show()
 
 
     
-![png](student_files/student_83_0.png)
+![png](student_files/student_84_0.png)
     
 
 
@@ -3256,7 +3260,7 @@ plt.show()
 
 
     
-![png](student_files/student_85_0.png)
+![png](student_files/student_86_0.png)
     
 
 
@@ -3298,7 +3302,7 @@ plt.show()
 
 
     
-![png](student_files/student_87_0.png)
+![png](student_files/student_88_0.png)
     
 
 
@@ -3333,7 +3337,7 @@ plt.show()
 
 
     
-![png](student_files/student_89_0.png)
+![png](student_files/student_90_0.png)
     
 
 
@@ -3350,7 +3354,7 @@ plt.show()
 
 
     
-![png](student_files/student_90_0.png)
+![png](student_files/student_91_0.png)
     
 
 
@@ -3366,7 +3370,7 @@ plt.show()
 
 
     
-![png](student_files/student_91_0.png)
+![png](student_files/student_92_0.png)
     
 
 
@@ -3394,7 +3398,7 @@ plt.show()
 
 
     
-![png](student_files/student_92_0.png)
+![png](student_files/student_93_0.png)
     
 
 
@@ -3514,7 +3518,7 @@ plt.show()
 
 
     
-![png](student_files/student_94_0.png)
+![png](student_files/student_95_0.png)
     
 
 
@@ -3651,7 +3655,7 @@ plt.show()
 
 
     
-![png](student_files/student_97_0.png)
+![png](student_files/student_98_0.png)
     
 
 
@@ -3784,7 +3788,7 @@ plt.show()
 
 
     
-![png](student_files/student_101_0.png)
+![png](student_files/student_102_0.png)
     
 
 
@@ -3913,7 +3917,7 @@ plt.show()
 
 
     
-![png](student_files/student_105_0.png)
+![png](student_files/student_106_0.png)
     
 
 
@@ -4033,7 +4037,7 @@ plt.show()
 
 
     
-![png](student_files/student_107_0.png)
+![png](student_files/student_108_0.png)
     
 
 
@@ -4153,7 +4157,7 @@ plt.show()
 
 
     
-![png](student_files/student_109_0.png)
+![png](student_files/student_110_0.png)
     
 
 
@@ -4281,7 +4285,7 @@ plt.show()
 
 
     
-![png](student_files/student_114_0.png)
+![png](student_files/student_115_0.png)
     
 
 
@@ -4398,7 +4402,7 @@ plt.show()
 
 
     
-![png](student_files/student_116_0.png)
+![png](student_files/student_117_0.png)
     
 
 
@@ -4509,7 +4513,7 @@ plt.show()
 
 
     
-![png](student_files/student_118_0.png)
+![png](student_files/student_119_0.png)
     
 
 
@@ -4622,7 +4626,7 @@ plt.show()
 
 
     
-![png](student_files/student_120_0.png)
+![png](student_files/student_121_0.png)
     
 
 
@@ -4808,7 +4812,7 @@ plt.show()
 
 
     
-![png](student_files/student_124_0.png)
+![png](student_files/student_125_0.png)
     
 
 
@@ -4991,7 +4995,7 @@ plt.show()
 
 
     
-![png](student_files/student_126_0.png)
+![png](student_files/student_127_0.png)
     
 
 
@@ -5176,7 +5180,7 @@ plt.show()
 
 
     
-![png](student_files/student_131_0.png)
+![png](student_files/student_132_0.png)
     
 
 
@@ -5341,7 +5345,7 @@ plt.show()
 
 
     
-![png](student_files/student_135_0.png)
+![png](student_files/student_136_0.png)
     
 
 
@@ -5453,7 +5457,7 @@ plt.show()
 
 
     
-![png](student_files/student_140_0.png)
+![png](student_files/student_141_0.png)
     
 
 
@@ -5554,7 +5558,7 @@ plt.show()
 
 
     
-![png](student_files/student_144_0.png)
+![png](student_files/student_145_0.png)
     
 
 
@@ -5635,7 +5639,7 @@ plt.show()
 
 
     
-![png](student_files/student_151_0.png)
+![png](student_files/student_152_0.png)
     
 
 
