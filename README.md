@@ -136,26 +136,26 @@ From the heatmap, we can observe that certain genres tend to co-occur more frequ
 
 Movies released in the months of May, June, and July tend to yield higher profits, which coincides with long summer holidays for the northern hemisphere. There is also a noticeable peak in November due to the winter holiday season.
 ***
-
+```
 
     
 ![png](student_files/student_84_0.png)
     
-
+```
 
 Average worldwide gross per year
-
+```
 ![png](student_files/student_86_0.png)
-    
+ ```   
 
 
 Average Releases per year
 
-
+```
     
 ![png](student_files/student_88_0.png)
     
-
+```
 
 ## Return on Investment
 
@@ -163,20 +163,20 @@ This will analyze if there is a relationship between the production budget and t
 
 Distribution of ROI for Different Budget Ranges
 
-    
+```    
 ![png](student_files/student_90_0.png)
     
-
+```
 Top 5 genres with colors using Seaborn
 
 
     
 ![png](student_files/student_93_0.png)
     
-
+```
 Highest earning movies per year
 
-
+```
 
 
 
