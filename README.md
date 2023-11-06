@@ -176,7 +176,8 @@ Top 5 genres with colors using Seaborn
 
 Highest earning movies per year
 
-```
+
+
 
 
 
