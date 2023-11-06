@@ -92,8 +92,8 @@ movie_info = pd.read_csv('rt.movie_info.tsv', sep='\t')
 rt_review = pd.read_csv('rt.reviews.tsv', sep='\t', encoding='latin-1')
 tmdb_movies = pd.read_csv('tmdb.movies.csv', index_col='Unnamed: 0',)
 genres_df = pd.read_csv('genres.csv')
-```
-```
+
+
 
 # Data Pre-Analysis and Cleanup
 
@@ -141,21 +141,21 @@ Movies released in the months of May, June, and July tend to yield higher profit
     
 ![png](student_files/student_84_0.png)
     
-```
+
 
 Average worldwide gross per year
-```
+
 ![png](student_files/student_86_0.png)
- ```   
+    
 
 
 Average Releases per year
 
-```
+
     
 ![png](student_files/student_88_0.png)
     
-```
+
 
 ## Return on Investment
 
@@ -163,20 +163,20 @@ This will analyze if there is a relationship between the production budget and t
 
 Distribution of ROI for Different Budget Ranges
 
-```    
+    
 ![png](student_files/student_90_0.png)
     
-```
+
 Top 5 genres with colors using Seaborn
 
 
     
 ![png](student_files/student_93_0.png)
     
-```
+
 Highest earning movies per year
 
-```
+
 
 
 
@@ -263,7 +263,7 @@ Highest earning movies per year
   </tbody>
 </table>
 </div>
-```
+
 
 
 Highest earning movies per year
@@ -273,7 +273,7 @@ Highest earning movies per year
 
 Highest gross profit per year
 
-```
+
 
 
 
@@ -281,7 +281,7 @@ Highest gross profit per year
 ![png](student_files/student_98_0.png)
     
 
-```
+
 ## Studios: Top 20 Releases Over the Years
 
 We look at the number of movie releases per studio for each year and find that Buena Vista/Walt Disney, Paramount, Universal Studios, Warner Brothers, and Fox are consistently been among the highest number of movie producers over the 8-year period.
@@ -289,11 +289,11 @@ We look at the number of movie releases per studio for each year and find that B
 
 Display number of movies per studio each year
 
-```
 
 
 
-```
+
+
 
 
 Top 20 number of movies per studio each year
@@ -304,7 +304,7 @@ Top 20 number of movies per studio each year
     
 ![png](student_files/student_102_0.png)
     
-```
+
 
 ## Studios: Highest Earning Per Year
 
@@ -315,37 +315,37 @@ Overseas Walt Disney has had even more success with their productions as they ha
 Looking at global earnings in totality, the data infers that Walt Disney is the most successful production studio between 2010 and 2018 having been the highest earner in 3 different years, followed thereon by Universal Studios.
 
 
-```
 
 
 
-```
+
+
 
 
 Studios with the highest domestic gross earnings for each year
-```
+
 
 
     
 ![png](student_files/student_106_0.png)
-```    
+    
 
 
 Studio with the highest foreign earnings each year
 
 
-```
+
     
 ![png](student_files/student_108_0.png)
     
 
-```
+
 Studio with the highest worldwide_gross earnings each year
-```
+
     
 ![png](student_files/student_110_0.png)
     
-```
+
 
 ## Studios: Distribution of Earnings
 
@@ -353,13 +353,13 @@ The order of the top 10 studios in worldwide earnings follows that of the highes
 
 All studios in the top 10 earned above USD 1 billion.
 
-```
+
 
     
 ![png](student_files/student_115_0.png)
     
 
-```
+
 Highest foreign earning studios
 
 
@@ -367,27 +367,27 @@ Highest foreign earning studios
 Top 10 studios with the highest foreign earnings
 
 
-```
+
 
 
     
 ![png](student_files/student_117_0.png)
     
 
-```
+
 
 Highest worldwide earning studios
 
 
-```
+
     
 ![png](student_files/student_119_0.png)
     
 
-```
+
 Top 20 studios with the highest gross_profit
 
-```
+
 
 
 
@@ -395,25 +395,25 @@ Top 20 studios with the highest gross_profit
     
 ![png](student_files/student_121_0.png)
     
-```
+
 
 ## Studios: Top 20 Most Profitable Releases
 
 Out of the top 20 gross worldwide earning movies, 17 are the most proitable. 65% of the most profitable movies are sequels.
 
 
-```
+
     
 ![png](student_files/student_125_0.png)
     
 
 
 
-```
+
 Studios with the top 20 most profitable movie releases
 
 
-```
+
 
 
     
@@ -422,15 +422,15 @@ Studios with the top 20 most profitable movie releases
 
 
 
-```
+
 Find the number of movies both in top20_worldwide_earners and top20_profitable_movies
 
 
-```
+
 
 Number of movies in both top20_worldwide_earners and top_20_profitable_movies: 17
     
-```
+
 ## Production Budget: Average Budget per Studio
 
 On average Paramount DreamWorks (P/DW) allocated the highest budget towards their projects. While they have not been the top highest-earning or most profitable studio they have been consistently in the top 10.
@@ -440,12 +440,12 @@ Walt Disney, the highest and most profitable studio within the period on average
 
 # Average production budget per studio
 
-```
+
 
     
 ![png](student_files/student_132_0.png)
     
-```
+
 
 ## Production Budget: Top 20 Studios with the Highest Budgets
 
@@ -454,20 +454,20 @@ Walt Disney, being the highest-earning studio and the most profitable is also th
 
 Studios with the highest production budgets
 
-```
+
    
 ![png](student_files/student_136_0.png)  
 
 
 
-```
+
 Number of studios in with the highest profit which are also the most profitable
 
 
-```
+
 Number of studios in top20_studios_budgets that are also in top20_studios_profit: 10
     
-```
+
 ## Production Budget: Movies with the Largest Budget
 
 
@@ -479,13 +479,13 @@ From the top 20 movies with the largest production budgets, Walt Disney's movies
 ##Top 20 movies with the largest production budgets
 
 
-```
+
 
 
     
 ![png](student_files/student_141_0.png)
     
-```
+
 
 ## Gross Profit & Production Budget
 
@@ -497,35 +497,35 @@ The very high budget category far surpasses the rest in earnings as movies withi
 
 ### Categorize the movies into budget categories
 
-```
+
 
 
     
 ![png](student_files/student_145_0.png)
     
-```
+
 
 ## Analyzing Sequels
 
 ### Find Similar Movie Titles
-```
+
 ['Star Trek Into Darkness', 'Star Trek Beyond', 'Spectre', 'Shrek Forever After', 'True Grit']
     
-```
+
 ### Comparing the Gross Profit
 
 All sequel releases are very profitable and are a great way for studios to earn profits by further developing existing productions. The performance between earlier and later releases varies from movie to movie. The contributors to why this may be difficult to determine from the data available but may be attributable to the success of the preceding movie, script, and marketing.
 
 
 
-```
+
     
 ![png](student_files/student_152_0.png)
     
 
 
 
-```
+
 
 
 ## Conclusions
