@@ -60,40 +60,11 @@ This project aims to equip Microsoft's new movie studio with the knowledge and i
 ## The Data
 I have Used the three movie datasets below, The datasets contain movie ratings, genres, gross earnings, production years and number votes. In the folder zippedData are movie datasets from:
 
-bom.movie_gross
+bom.movie_gross - from Box Office Mojo by IMDBPro, an American website that tracks box-office revenue in a systematic, algorithmic way.
 
-title.basics
+imdb.title.basics, imdb.title.ratings, and tn.movie_budgets - From IMDB, an online database containing information and statistics about movies, TV shows and video games as well as actors, directors and other film industry professionals.
 
-title.basics
-
-title.ratings
-
-tn.movie_budgets
-
-rt.movie_info
-
-rt.reviews
-
-tmdb.movies
-
-genres
-
-
-
-
-#load the datasets
-movie_gross = pd.read_csv('bom.movie_gross.csv')
-title_basics = pd.read_csv('title.basics.csv', engine='python')
-basic_title = pd.read_csv('title.basics.tsv', sep='\t',low_memory=False)
-imdb_ratings = pd.read_csv('title.ratings.csv')
-movie_budgets = pd.read_csv('tn.movie_budgets.csv')
-rt_movie = pd.read_csv('rt.movie_info.tsv', sep='\t')
-movie_info = pd.read_csv('rt.movie_info.tsv', sep='\t')
-rt_review = pd.read_csv('rt.reviews.tsv', sep='\t', encoding='latin-1')
-tmdb_movies = pd.read_csv('tmdb.movies.csv', index_col='Unnamed: 0',)
-genres_df = pd.read_csv('genres.csv')
-
-
+tmdb.movies - from  popular, user editable database for movies and TV shows.
 
 # Data Pre-Analysis and Cleanup
 
