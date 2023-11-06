@@ -136,7 +136,7 @@ From the heatmap, we can observe that certain genres tend to co-occur more frequ
 
 Movies released in the months of May, June, and July tend to yield higher profits, which coincides with long summer holidays for the northern hemisphere. There is also a noticeable peak in November due to the winter holiday season.
 ***
-```
+
 
     
 ![png](student_files/student_84_0.png)
@@ -298,7 +298,7 @@ Display number of movies per studio each year
 
 Top 20 number of movies per studio each year
 
-```
+
 
 
     
